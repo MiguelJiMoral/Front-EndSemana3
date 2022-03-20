@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=Open+Sans:wght@500;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    
+}
+.menu{
+    display: inline;
+    
+}
+.logo{
+    float: left;
+    padding-top: 1.2%;
+    padding-left: 9%;
+    font-family:    'Open Sans', sans-serif;
+    color: #4060DB;
+    font-weight: 700px;
+    font-size: 24px;
+}
+.opcion{
+    float: right;
+    padding-top: 1.2%;
+    padding-right: 13%;
+}
+.opcion li{
+    display: inline;
+    
+}
+.opcion a{
+    padding-right: 50px;
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+.opcion button{
+    background-color: #4060DB;
+    border: #4060DB;
+    height: 40px;
+    border-radius: 5%;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 15px black;
+}
+.opcion button a{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+.primero{
+    
+    width: 100%;
+    height: 570px;
+    
+}
+.derechap{
+    width: 120px;
+    background-color: #128DE4;
+    padding-top: 40px;
+    padding-right: 50%;
+    float: right;
+    z-index: 0;
+    
+}
+
+.izquierdap{
+    float: left;
+    width: 45%;
+    height: 600px;
+    z-index: 1;
+    
+}
+.derechap img{
+    background-color: #128DE4;
+    width: 463px;
+    height: 538px;
+    z-index: 2;
+}
+.izquierdap p{
+    width: 430px;
+    padding-top: 120px;
+    padding-left: 120px;
+    font-size: 50px;
+    color: #1F3E72;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+}
+.izquierdap .contenidop{
+    padding-top: 10px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+    width: 460px;
+    font-family: 'Fredoka', sans-serif;
+}
+.Seguridad{
+    padding-top: 40px;
+    padding-left: 120px;
+    word-spacing: 2px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5E759A;
+}
+.Seguridad svg{
+    padding-top: 6px;
+}
+.Cita{
+    padding-top: 50px;
+    padding-left: 120px;
+    font-family: 'Fredoka', sans-serif;
+    color: #1F3E72;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Cita svg{
+    padding-top: 8px;
+}
+.Lugar{
+    padding-top: 20px;
+    margin-left: 120px;
+    width: 800px;
+    height: 120px;
+    background-color: white;
+    padding-left: 20px;
+    z-index: 2;
+    display: inline-flex;
+}
+.Lugar ul{
+    list-style-type: none;
+}
+.Lugar li{
+    color: gray;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+}
+.Lugar .Submenu{
+    color: #1F3E72;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.Enviar{
+    margin: 8px;
+    margin-left: 10px;
+    background-color: #4060DB;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: #4060DB;
+    height: 40px;
+    border-radius: 5%;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 15px black;
+}
+.Logos{
+    width: 100%;
+    height: 650px;
+    padding-top: 15px;
+}
+
+.imagen{
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+.imagen li{
+    
+    display: inline;
+    padding: 1.30em;
+}
+.imagen ul{
+    display: inline;
+}
+.Astra{
+    filter: grayscale(1);
+    width: 280px;
+    height: 30px;
+    opacity: 30%;
+}
+.Sino{
+    filter: grayscale(1);
+    width: 250px;
+    height: 30px;
+    opacity: 30%;
+}
+.pfi{
+    filter: grayscale(1);
+    width: 250px;
+    margin-top: 30px;
+    height: 75px;
+    opacity: 30%;
+}
+.moderna{
+    filter: grayscale(1);
+    width: 300px;
+    height: 50px;
+    opacity: 30%;
+}
+.imagen img{
+    padding-left: 80px;
+}
+.beneficios{
+    float: left;
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    
+}
+.Titulob{
+    color: #1F3E72;
+    font-family: 'Fredoka', sans-serif;
+    padding-left: 120px;
+    padding-top: 60px;
+    font-weight: 600;
+    font-size: 33px;
+}
+.Contenidob{
+    color: gray;
+    padding-left: 120px;
+    font-size:18px;
+    padding-top: 15px;
+    width: 43%;
+    font-family: 'Fredoka', sans-serif;
+}
+.Opcionesb{
+    padding-top: 60px;
+    padding-left: 140px;
+    display: inline-flex;
+    margin-right: 25px;
+}
+.Tituloparte{
+    font-family: 'Fredoka', sans-serif;
+    color: #1F3E72;
+    font-size: 22px;
+}
+.Descripcionparte{
+    font-family: 'Fredoka', sans-serif;
+    color: gray;
+}
+.parte1 ul{
+    list-style-type: none;
+}
+.parte1 svg{
+    background-color: rgba(2, 120, 255, 0.068);
+}
+.parte1{
+    width: 180px;
+    margin-right: 70px;
+}
+.parte2 ul{
+    list-style-type: none;
+}
+.parte2{
+    width: 180px;
+    margin-right: 70px;
+}
+.parte2 svg{
+    background-color: rgba(2, 120, 255, 0.068);
+}
+.parte3{
+    width: 180px;
+    margin-right: 70px;
+}
+.parte3 ul{
+    list-style-type: none;
+}
+.parte3 svg{
+    background-color: rgba(2, 120, 255, 0.068);
+}
+.parte4{
+    width: 180px;
+}
+.parte4 ul{
+    list-style-type: none;
+}
+.parte4 svg{
+    background-color: rgba(2, 120, 255, 0.068);
+}
+.Preparar{
+    width: 100%;
+    height: 580px;
+    display: inline-flex;
+}
+.Mujer{
+    float: left;
+    z-index: 0;
+    width: 500px;
+    background-color: #128DE4;
+    margin-top: 50px;
+}
+.Precauciones{
+    float: right;
+    margin-left: 120px;
+    width: 500px;
+}
+.capa{
+    height: 150px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.capa img{
+    margin-left: 75px;
+}
+.Titulop{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #1F3E72;
+}
+.Contenido3{
+    margin-top: 45px;
+    font-size: 18px;
+    color: gray;
+    font-family: 'Fredoka', sans-serif;
+}
+span[data-descr] {
+    position: relative;
+    text-decoration: none;
+    color: #1F3E72;
+    font-family: 'Fredoka', sans-serif;
+    cursor: help;
+    font-size: 18;
+    font-weight: 500;
+   
+  }
+  
+  span[data-descr]:hover::after,
+  span[data-descr]:focus::after {
+    content: attr(data-descr);
+    position: absolute;
+    left: 0;
+    top: 24px;
+    min-width: 200px;
+    border: 1px #aaaaaa solid;
+    border-radius: 10px;
+    background-color: #ffffcc;
+    padding: 12px;
+    color: #000000;
+    font-size: 14px;
+    z-index: 1;
+  }
+  .tip1{
+      margin-top: 70px;
+      margin-left: 60px;
+  }
+  .tip1 svg{
+      margin-right: 15px;
+      padding-top: 5px;
+  }
+  .tip2{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.tip2 svg{
+    margin-right: 15px;
+    padding-top: 5px;
+}
+.tip2 {
+    font-family: 'Fredoka', sans-serif;
+    color: #1F3E72;
+    font-weight: 500;
+}
+.tip3{
+    font-family: 'Fredoka', sans-serif;
+    color: #1F3E72;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.tip3 svg{
+    margin-right: 15px;
+    padding-top: 5px;
+}
+.tip4{
+    font-family: 'Fredoka', sans-serif;
+    color: #1F3E72;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.tip4 svg{
+    margin-right: 15px;
+    padding-top: 5px;
+}
+.tip5{
+    font-family: 'Fredoka', sans-serif;
+    color: #1F3E72;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.tip5 svg{
+    margin-right: 15px;
+    padding-top: 5px;
+}
+.Emergencia{
+    width: 100%;
+    height: 600px;
+}
+.Tituloe{
+    margin-top: 120px;
+    margin-left: 80px;
+    width: 480px;
+    font-family: 'Fredoka', sans-serif;
+    color: #1F3E72;
+    font-size: 36px;
+    font-weight: 500;
+}
+.ContenidoE{
+    font-family: 'Fredoka', sans-serif;
+    color: gray;
+    font-size: 16px;
+    margin-top: 25px;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+.Hombre{
+    background-color: #1F3E72;
+    float: right;
+}
+.Info{
+    float: left;
+    display: inline-flex;
+    margin-top: 120px;
+    margin-left: 130px;
+}
+.Info ul{
+    list-style-type: none;
+    margin-left: 16px;
+}
+.Info svg{
+    background-color: rgba(2, 120, 255, 0.068);
+    border-radius: 10px;
+    
+}
+.Titulolist{
+    color: #1F3E72;
+    font-size: 22px;
+    font-weight: 700;
+}
+.ContenidoList{
+    color: gray;
+    font-size: 12px;
+    font-weight: 700;
+}
+.Mensaje{
+    display: inline-flex;
+    margin-left: 150px;
+}
+.Video{
+    margin-top: 250px;
+    display: inline-flex;
+    margin-left: -400px;
+}
+.Video ul{
+    list-style: none;
+    margin-left: 14px;
+}
+.Message{
+   margin-left: 130px;
+    display: inline-flex;
+    
+}
